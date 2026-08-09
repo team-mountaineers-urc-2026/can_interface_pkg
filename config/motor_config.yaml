@@ -1,0 +1,17 @@
+/**:
+  ros__parameters:
+    can_ids:
+      drivebase_motors:
+        back_left: 888
+        back_right: 998
+        front_left: 668
+        front_right: 778
+      manipulator_motors:
+        linear_rail: 558
+        shoulder_left: 181
+        shoulder_right: 282
+        wrist_pitch: 338
+        wrist_roll: 448
+    can_topic_name: outgoing_can_commands
+    pub_rate_hz: 1
+    use_sim_time: false
